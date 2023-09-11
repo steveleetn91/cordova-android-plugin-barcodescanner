@@ -2,20 +2,20 @@ package org.apache.cordova;
 
 import org.json.JSONObject;
 
-public class CordovaEventBuilder {
+public class CordovaBarcodeEventBuilder {
     private String eventName;
     private String jsonData;
 
-    public CordovaEventBuilder(String eventName) {
+    public CordovaBarcodeEventBuilder(String eventName) {
         this.eventName = eventName;
     }
 
-    public CordovaEventBuilder withData(String data) {
+    public CordovaBarcodeEventBuilder withData(String data) {
         this.jsonData = data;
         return this;
     }
 
-    public CordovaEventBuilder withData(JSONObject jsonObj) {
+    public CordovaBarcodeEventBuilder withData(JSONObject jsonObj) {
         if (jsonObj == null) {
             return withData("");
         }

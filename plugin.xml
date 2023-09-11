@@ -27,7 +27,7 @@ id="cordova-android-plugin-barcodescanner"
             </feature>
         </config-file>
         <source-file src="native/android/CordovaBarcode.java" target-dir="org/apache/cordova" />
-        <source-file src="native/android/CordovaEventBuilder.java" target-dir="org/apache/cordova" />
+        <source-file src="native/android/CordovaBarcodeEventBuilder.java" target-dir="org/apache/cordova" />
     </platform>
     
 </plugin>

@@ -11,6 +11,11 @@ Note that this API does not recognize barcodes in these forms:
 - QR codes generated in the ECI mode
 - This API recognizes no more than 10 barcodes per API call.
 
+## Supports
+
+- QC Code ( URL, Wifi )
+- BarCode
+
 ## How to install? 
 
     cordova plugin add https://github.com/steveleetn91/cordova-android-plugin-barcodescanner.git

@@ -1,0 +1,22 @@
+{
+  "name": "cordova-android-plugin-barcodescanner",
+  "version": "1.0.0",
+  "description": "Cordova android plugin support barcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveleetn91/cordova-android-plugin-barcodescanner.git"
+  },
+  "keywords": [
+    "stevelee","cordova barcode","cordova android","cordova android plugin"
+  ],
+  "author": "stevelee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steveleetn91/cordova-android-plugin-barcodescanner/issues"
+  },
+  "homepage": "https://github.com/steveleetn91/cordova-android-plugin-barcodescanner#readme"
+}

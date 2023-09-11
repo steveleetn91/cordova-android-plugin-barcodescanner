@@ -16,6 +16,15 @@ Note that this API does not recognize barcodes in these forms:
 - QC Code ( URL, Wifi )
 - BarCode
 
+## Config
+
+Go to `config.xml` and insert:
+
+    <preference name="GradleVersion" value="8.0" />
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+        <uses-permission android:name="android.permission.CAMERA"/>
+    </config-file>
+
 ## How to install? 
 
     cordova plugin add https://github.com/steveleetn91/cordova-android-plugin-barcodescanner.git
